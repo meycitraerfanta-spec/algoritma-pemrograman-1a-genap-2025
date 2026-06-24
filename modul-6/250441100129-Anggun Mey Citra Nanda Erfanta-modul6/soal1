@@ -1,0 +1,19 @@
+daftar_belanja = ["telur", "roti", "susu"]
+daftar_belanja.append("keju")
+daftar_belanja.remove("roti")
+print(daftar_belanja)
+
+a1 = ["Telur"]
+b2 = ["Roti"]
+c3 = ["susu"]
+
+
+#for a in a1 :
+ #   for b in b2 :
+    
+ #       print(f"{a1}  {b2} {c3}")
+
+#daftar_belanja = ("telur", "roti", "susu")
+#for i in daftar_belanja:
+#   
+#        print(i)

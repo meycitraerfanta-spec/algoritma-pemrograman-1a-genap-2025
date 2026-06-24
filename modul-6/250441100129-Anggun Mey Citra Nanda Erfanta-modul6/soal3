@@ -1,0 +1,6 @@
+atasan = ["Kaos", "Kemeja"]
+bawahan = ["Celana Jins", "Rok"]
+
+for a in atasan:
+    for b in bawahan:
+        print(f"Kombinasi: {a} - {b}")

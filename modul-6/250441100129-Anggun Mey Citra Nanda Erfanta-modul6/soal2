@@ -1,0 +1,3 @@
+mobil = ("Toyota", "Honda", "Suzuki", "Mitsubishi", "Daihatsu")
+idx = int(input("Masukkan indeks: "))
+print(mobil[idx])
