@@ -1,0 +1,8 @@
+hobi_a = {'membaca', 'berenang', 'memasak', 'sepak bola'}
+hobi_b = {'berenang', 'sepak bola', 'melukis', 'menari'}
+
+sama = hobi_a & hobi_b
+print("Hobi yang sama:", sama)
+
+gabungan = hobi_a | hobi_b
+print("Gabungan hobi unik:", gabungan)

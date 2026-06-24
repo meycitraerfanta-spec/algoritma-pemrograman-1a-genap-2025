@@ -1,0 +1,8 @@
+peminjaman = {'Andi': 'Laskar Pelangi', 'Budi': 'Filosofi Teras'}
+
+peminjaman.pop('Andi')  
+print("Setelah hapus Andi:", peminjaman)
+
+peminjaman.clear()
+
+print("Kondisi akhir:", peminjaman)

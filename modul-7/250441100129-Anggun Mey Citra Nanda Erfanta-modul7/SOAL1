@@ -1,0 +1,7 @@
+stok = {'Beras': 50, 'Gula': 30, 'Minyak': 25}
+
+nama = input("Masukkan nama barang: ")
+jumlah = int(input("Masukkan jumlah stok: "))
+stok[nama] = jumlah
+
+print("Stok setelah ditambah:", stok)
