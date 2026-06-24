@@ -1,0 +1,7 @@
+kali = lambda x, y: x * y
+
+x = int(input("Masukkan nilai x: "))
+y = int(input("Masukkan nilai y: "))
+
+hasil = kali(x, y)
+print("Hasil perkalian:", hasil)

@@ -1,0 +1,14 @@
+def hitung_tagihan(kWh):
+    total = kWh * 1500
+    if kWh >= 500:
+        kategori = "Tinggi"
+    else:
+        kategori = "Normal"
+    return total, kategori
+
+kWh = int(input("Masukkan jumlah pemakaian (kWh): "))
+
+total_bayar, kategori = hitung_tagihan(kWh)
+
+print("Total Bayar : Rp", total_bayar)
+print("Kategori    :", kategori)

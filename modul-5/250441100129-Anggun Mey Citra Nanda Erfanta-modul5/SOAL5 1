@@ -1,0 +1,8 @@
+def sapa_mahasiswa(nama, nim):
+
+    print(f"Selamat datang di Lab Alpro, {nama} dengan NIM {nim}!")
+
+nama = input("Masukkan nama mahasiswa: ")
+nim = input("Masukkan NIM mahasiswa: ")
+
+sapa_mahasiswa(nama, nim)
