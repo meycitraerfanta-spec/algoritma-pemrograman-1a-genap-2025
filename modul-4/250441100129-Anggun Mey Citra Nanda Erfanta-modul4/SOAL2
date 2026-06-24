@@ -1,0 +1,13 @@
+angka = 42
+nyawa = 5
+
+while nyawa > 0:
+    tebak = int(input(f"Tebak (nyawa {nyawa}): "))
+    if tebak == angka:
+        print("Selamat! Anda Menang")
+        break
+    nyawa -= 1
+    print(f"Sisa nyawa: {nyawa}")
+
+if nyawa == 0:
+    print(f"Game Over! Angka rahasianya adalah {angka}")
