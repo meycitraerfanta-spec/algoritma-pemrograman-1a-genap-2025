@@ -1,0 +1,8 @@
+panjang = 12
+lebar = 7
+
+luas = panjang * lebar
+keliling = 2 * (panjang + lebar)
+
+print("Luas:", panjang * lebar, "cm²")
+print("Keliling:", 2* panjang*lebar, "cm")

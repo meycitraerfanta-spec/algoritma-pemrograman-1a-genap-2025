@@ -1,0 +1,10 @@
+kursi_ruang_a = 28
+kursi_ruang_b = 32
+
+jumlah_seluruh = kursi_ruang_a + kursi_ruang_b
+selisih_kursi = kursi_ruang_b - kursi_ruang_a
+
+print("Kursi Ruang A:", kursi_ruang_a)
+print("Kursi Ruang B:", kursi_ruang_b)
+print("Jumlah seluruh kursi:", jumlah_seluruh)
+print("Selisih kursi (B - A):", selisih_kursi)

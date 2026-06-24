@@ -1,0 +1,18 @@
+nasi_goreng_harga = 15000
+nasi_goreng_jumlah = 2
+
+es_teh_harga = 5000
+es_teh_jumlah = 1
+
+uang_mahasiswa = 50000
+
+total_harga = (nasi_goreng_harga * nasi_goreng_jumlah) + (es_teh_harga * es_teh_jumlah)
+
+sisa_uang = uang_mahasiswa - total_harga
+
+print(nasi_goreng_jumlah,"nasi_goreng ",nasi_goreng_harga, "= Rp", nasi_goreng_harga * nasi_goreng_jumlah)
+print(es_teh_jumlah,"es_teh", es_teh_harga, "= Rp", es_teh_harga * es_teh_jumlah)
+print("-" * 35)
+print("Total yang harus dibayar: Rp", total_harga)
+print("Uang yang dibawa: Rp", uang_mahasiswa)
+print("Sisa uang: Rp", sisa_uang)
